@@ -1,0 +1,10 @@
+:root{
+    --primary-very-dark: hsl(243, 87%, 12%);
+    --primary-desatured: hsl(238, 22%, 44%);
+
+    --accent-bright: hsl(224, 93%, 58%);
+    --accent-moderate: hsl(170, 45%, 43%);
+
+    --neutral-light-grayish: hsl(240, 75%, 98%);
+    --neutral-light: hsl(0, 0%, 75%);
+}

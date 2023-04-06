@@ -1,0 +1,160 @@
+@media(min-width: 1440px){
+    body{
+        font-size: 24px;
+    }
+
+    .navigation-menu .navigation ul a{
+        font-size: 28px;
+    }
+}
+
+@media(max-width:820px){
+    body{
+        font-size: 14px;
+    }
+
+    .navigation-menu .navigation ul a{
+        font-size: 18px;
+    }
+
+    .contents .file-section .text-file h2, p{
+        text-align: justify;
+    }
+
+    .contents .file-section .text-file button{
+        width: 300px;
+        margin: .5rem 0;
+    }
+
+    .contents .productive-section .text-productive a:after{
+        top: 15%;
+    }
+
+    .contents .mini-section form{
+        margin: 0 0 0 4rem;
+    }
+
+    .contents .mini-section #email{
+        width: 300px;
+    }
+
+    .contents .mini-section button{
+        width: 300px;
+    }
+}
+
+@media(max-width: 600px){
+    p{
+        font-size: 18px;
+    }
+
+    .navigation-menu a img{
+        width: 100px;
+    }
+
+    .contents .file-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contents .file-section .text-file h2, p{
+        text-align: center;
+    }
+
+    .contents .file-section .text-file h2{
+        font-size: 36px;
+    }
+
+    .contents .file-section .text-file p{
+        margin: 0 2.5rem 2rem;
+    }
+
+    .contents .file-section .text-file form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contents .file-section .text-file input{
+        width: 80%;
+    }
+
+    .contents .file-section .text-file button{
+        width: 100%;
+    }
+
+    .contents .productive-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contents .productive-section .text-productive h2{
+        text-align: center;
+    }
+
+    .contents .productive-section .text-productive p{
+        color: var(--primary-desatured);
+        text-align: left;
+        margin-bottom: 1.5rem;
+    }
+
+    .contents .productive-section .text-productive .link{
+        margin: auto;
+        width: 140px;
+    }
+
+    .contents .productive-section .text-productive .comment{
+        width: 100%;
+        margin: auto;
+    }
+
+    .contents .mini-section{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contents .mini-section .text{
+        margin: 1rem 0 1.5rem;
+    }
+
+    .contents .mini-section .text h2{
+        text-align: center;
+    }
+
+    .contents .mini-section form{
+        align-items: center;
+        margin: 0;
+    }
+
+    .footer img{
+        width: 200px;
+    }
+
+    .footer .contacts{
+        margin: 0;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer .contacts ul{
+        margin-left: 2rem;
+    }
+
+    .footer .contacts .icons{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .footer .contacts .icons a:first-child{
+        padding: 2px 10px;
+    }
+    
+    .footer .contacts .icons a{
+        padding: 2px 6.3px;
+    }
+    
+    .footer .contacts .icons a:last-child{
+        padding: 2px 7.5px;
+    }
+}

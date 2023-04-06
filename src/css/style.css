@@ -1,0 +1,271 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navigation-menu{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem 2.5rem;
+}
+
+.navigation-menu .navigation ul{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.navigation-menu .navigation ul a{
+    padding: 5px 10px;
+}
+
+.navigation-menu .navigation ul a:hover{
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    color: var(--accent-bright);
+    background-color: var(--neutral-light-grayish);
+    border-radius: 100px;
+}
+
+.contents{
+    margin: 4rem 0 0;
+}
+
+.contents .file-section{
+    display: grid;
+    gap: 4rem;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 4rem 2.5rem 6rem;
+}
+
+.contents .file-section .text-file h2{
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.contents .file-section .text-file p{
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+.contents .file-section .text-file input{
+    text-indent: 10px;
+    height: 40px;
+    min-width: 300px;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.contents .file-section .text-file button{
+    color: #fff;
+    height: 40px;
+    width: 200px;
+    border: 1px solid var(--primary-very-dark);
+    border-radius: 4px;
+    background-color: var(--accent-bright);
+    margin: .5rem;
+}
+
+.contents .file-section .text-file button:hover{
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    opacity: 70%;
+    border: 1px solid var(--accent-bright);
+}
+
+.contents .file-section img{
+    max-width: 100%;
+}
+
+.contents .productive-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    background: url(../images/bg-curve-desktop.svg) no-repeat center;
+    background-size: cover;
+    padding: 6rem 0;
+}
+
+.contents .productive-section .text-productive{
+    margin: 0 2.5rem;
+}
+
+.contents .productive-section .text-productive h2{
+    font-family: 'Raleway', sans-serif;
+    margin: 1rem 0;
+}
+
+.contents .productive-section .text-productive p{
+    margin: 1rem 0;
+}
+
+.contents .productive-section .text-productive .link{
+    border-bottom: 1px solid;
+    width: 182px;
+    color: var(--accent-moderate);
+    margin-bottom: 2rem;
+}
+
+.contents .productive-section .text-productive a{
+    color: var(--accent-moderate);
+    position: relative;
+}
+
+.contents .productive-section .text-productive a:hover{
+    opacity: 80%;
+}
+
+.contents .productive-section .text-productive a:after{
+    content: '';
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    background: url(../images/icon-arrow.svg) no-repeat;
+    position: absolute;
+    top: 30%;
+    right: -12%;
+}
+
+.contents .productive-section img{
+    max-width: 100%;
+} 
+
+.contents .productive-section .text-productive .comment{
+    width: 350px;
+    background: url(../images/icon-quotes.svg) no-repeat;
+    background-position: 8% 10%;
+    background-color: #fff;
+    box-shadow: .5px .5px 4px var(--neutral-light);
+}
+
+.contents .productive-section .text-productive .comment p{
+    font-size: 16px;
+    margin: 1.5rem 1.5rem .5rem;
+    padding: 2rem 0 0;
+}
+
+.contents .productive-section .text-productive .comment .user{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 1rem;
+}
+
+.contents .productive-section .text-productive .comment .user img{
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    margin-left: 1.5rem;
+}
+
+.contents .productive-section .text-productive .comment .user .name h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+}
+
+.contents .productive-section .text-productive .comment .user .name h4{
+    font-size: 10px;
+}
+
+.contents .mini-section{
+    display: flex;
+    justify-content: space-between;
+    color: var(--neutral-light-grayish);
+    padding: 3rem 2rem;
+    background-color: var(--primary-desatured);
+}
+
+.contents .mini-section .text{
+    max-width: 430px;
+}
+
+.contents .mini-section .text h2{
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: .6rem;
+}
+
+.contents .mini-section .text p{
+    font-size: 14px;
+}
+
+.contents .mini-section form{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.contents .mini-section #email{
+    text-indent: 1rem;
+    height: 40px;
+    width: 450px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px var(--primary-very-dark);
+    margin-bottom: 1.2rem;
+}
+
+.contents .mini-section button{
+    color: #fff;
+    background-color: var(--accent-bright);
+    border: none;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px var(--primary-very-dark);
+    height: 40px;
+    width: 200px;
+}
+
+.contents .mini-section button:hover{
+    cursor: pointer;
+    transition: .4s ease-in-out;
+    opacity: 70%;
+}
+
+.footer{
+    background-color: var(--primary-very-dark);
+}
+
+.footer img{
+    width: 100px;
+    margin: 3rem 2rem 1rem;
+}
+
+.footer .contacts{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin: 0 10rem 0 2rem;
+    line-height: 35px;
+    padding-bottom: 2rem;
+}
+
+.footer .contacts a{
+    color: #fff;
+}
+
+.footer .contacts a:hover{
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    color: var(--accent-bright);
+}
+
+.footer .contacts .icons a:first-child{
+    padding: 2px 8.4px;
+}
+
+.footer .contacts .icons a{
+    border: 1px solid #fff;
+    border-radius: 100%;
+    padding: 2px 5px;
+    margin: 0 .2rem;
+}
+
+.footer .contacts .icons a:last-child{
+    padding: 2px 6.2px;
+}
+
+.footer .contacts .icons a:hover{
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    border-color: var(--accent-bright);
+}
